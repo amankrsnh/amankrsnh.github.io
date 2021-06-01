@@ -1,0 +1,42 @@
+body {
+  background-image: url(/bkgrd.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: cursive;
+}
+
+#services {
+  font-style: italic;
+  font-size: 30px;
+  font-family: "Lobster", cursive;
+}
+
+.logo {
+  width: 90px;
+  height: 50px;
+  margin-top: 20px;
+  margin-left: 35px;
+}
+
+#icon1 {
+  top: 50%;
+}
+
+#text {
+  text-align: center;
+  font-style: italic;
+  font-size: 30px;
+  font-family: "Lobster", cursive;
+}
+
+#cnfpwd {
+  color: brown;
+}
+
+@media (min-width: 100px) {
+  .container {
+    max-width: 500px;
+    margin-left: 50%;
+  }
+}

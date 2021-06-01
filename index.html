@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AKS Services | The one with Everything</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <link href="index.css" rel="stylesheet">
+    <script type="text/javascript" src="jsscript/jquery.js"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <header>
+        <div class='header-div'>
+            <div class='header-main'>
+                <div class='container-fluid fixed-top bg-info'>
+                    <div class='row'>
+                        <div class='logo row col-md-2' >
+                            <a href="index.html" class='row logo1'>
+                                <img src='akslogo.jpeg' class='logo'>
+                                <span id='services' >Services</span>
+                            </a>
+                        </div>
+                        <div class='menu-header col-md-10'>
+                            <div class='navigation-menu d-flex justify-content-end align-items-center'>
+                                <div class='main-menu'>
+                                    <nav>
+                                        <ul id='menu' class='row'>
+                                            <li>
+                                                <a href="index.html">Home</a>
+                                            </li>
+                                            <li>
+                                                <a href="aboutUs.html">About</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Services</a>
+                                            </li>
+                                            <li>
+                                                <a href="blog.html">Blog</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Contact</a>
+                                            </li>
+                                            <li class='login-btn'>
+                                                <span id='lgn'><a href="login.html" class='lgn-anchor'>Login</a></span>
+                                            </li>
+                                        </ul>
+                                    </nav>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class='slideshow-container'>
+            <div class='slide slide1'>
+                <h5 class='t1'>We are new but doing great.</h5>
+                <img src='sliderimage.jpg'></img>
+                <p class='slider-text'>
+                    We are emerging into your world with almost everything.
+                </p>
+                <span class='slider-btn'>
+                    <a href="aboutus.html"><p class='slider-btn-p'>Know more about us</p></a>
+                </span>
+            </div>
+            <div class='slide slide2'>
+                <h5 class='t2'>We are new but doing great.</h5>
+                <img src='banner1.jpg'></img>
+                <p class='slider-text'>
+                    We are emerging into your world with almost everything.
+                </p>
+                <span class='slider-btn'>
+                    <a href="aboutus.html"><p class='slider-btn-p'>Know more about us</p></a>
+                </span>
+            </div>
+            <a class="prev" onclick="plusSlides(-1)"><span>❮</span></a>
+            <a class="next" onclick="plusSlides(1)"><span>❯</span></a>
+        </div>
+        <div class='services'>
+            <span class='services-title'>
+                <h1>Services we provide</h2>
+            </span>
+            <div class='service-cards col-md-12 col-sm-12 col-12 text-center my-5'>
+                <div class='row mx-5'>
+                    <div class='service-card1 col-md-4 col-sm-4 col-4'>
+                        <div class='border border-dark bg-light shadow rounded mx-2' onclick="redirectAmform()">
+                            <span class='service-icon'><img src="form.png"></span>
+                            <span><h4>Create Forms</h4>
+                            <p>Create as you want!</p></span>
+                            <span id='service-btn'><a href="login.html">Start</a></span>
+                        </div>
+                    </div>
+                    <div class='service-card2 col-md-4 col-sm-4 col-4'>
+                        <div class='border border-dark bg-light shadow rounded mx-2' onclick="redirectResumeBuilder()">
+                            <span class='service-icon'><img src="resumebuild.png"></span>
+                            <span><h4>Build Resume</h4>
+                            <p>Create as you want!</p></span>
+                            <span id='service-btn'><a href="login.html">Start</a></span>
+                        </div>
+                    </div>
+                    <div class='service-card3 col-md-4 col-sm-4 col-4'>
+                        <div class='border border-dark bg-light shadow rounded mx-2' onclick="redirectFileConverter()">
+                            <span class='service-icon'><img src="filecon.png"></span>
+                            <span><h4>Convert your files</h4>
+                            <p>Create as you want!</p></span>
+                            <span id='service-btn'><a href="login.html">Start</a></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class='mysection container-fluid'>
+            <div class='row px-5'>
+                <div class='imgdiv float-left'><img src="aman.jpeg" class='imgaman'></div>
+                <div class='ourphilosophy my-5 ml-5'>
+                    <h1>Our Philosophy</h1><br><br>
+                    <p >Our Vision shows what we are striving for – the Mission highlights how we want to achieve it. To pursue these two core elements of our corporate strategy, we need a solid foundation, which supports our Vision and Mission and helps us to fullfill it.
+                    <br/><br/>
+                    At AKS Services, this foundation is built upon six Strategic Pillars. These are described by statements of commitment and have a decisive influence on the corporate strategy by helping to achieve the Vision and Mission.
+                    <br><br>
+                    Full Stack Java Developer
+                    <br><br>
+                    <b>Aman Kumar Singh</b>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class='footer bg-info'>
+            <div class='full row col-md-12 col-sm-12 col-12 mx-5'>
+                <div clsss='flogo f1 col-md-4 col-sm-4 col-4'>
+                    <div class='f1span mx-5 my-5 py-5'>
+                        <a href="index.html" class='row logo2'>
+                            <img src='akslogo.jpeg' class='logo3'>
+                            <span id='services1' >Services</span>
+                        </a>
+                        <span id='ftext'>
+                            The One With Everything
+                        </span>
+                    </div>
+                </div>
+                <div clsss='flogo f2 col-md-2 col-sm-2 col-2'>
+                    <div class=' mx-5 my-5'>
+                        <h1>Navigation</h1>
+                        <div class='footer-menu'>
+                            <nav>
+                                <ul id='menu1' class='px-4 py-4'>
+                                    <li>
+                                        <a href="index.html">Home</a>
+                                    </li>
+                                    <li>
+                                        <a href="aboutUs.html">About</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Services</a>
+                                    </li>
+                                    <li>
+                                        <a href="blog.html">Blog</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Contact</a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+                <div clsss='flogo f3 col-md-2 col-sm-2 col-2'>
+                    <div class=' mx-5 my-5'>
+                        <h1>Services</h1>
+                        <div class='footer-menu'>
+                            <nav>
+                                <ul id='menu1' class='px-4 py-4'>
+                                    <li>
+                                        <a href="index.html">Create Forms</a>
+                                    </li>
+                                    <li>
+                                        <a href="aboutUs.html">Build Resume</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Convert Files</a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+                <div clsss='flogo f4 col-md-4 col-sm-4 col-4'>
+                    <div class='mx-5 mt-5'>
+                        <h1>Contact Us</h1>
+                        <p class='pt-4'> <strong> 2005<br>Sector-6<br>Bokaro Steel City<br>Jharkhand<br> <br> +91 9693831536</strong></p>
+                        <div class="footer-links pt-4" style="text-align: center;">
+
+                            <a href="https://www.facebook.com/amankrsnh " target="_blank "><i class="mx-2 fa fa-2x fab fa-facebook " style="color:#12388b; "></i></a>
+                            <a href="https://www.instagram.com/amankrsnh " target="_blank "><i class="mx-2 fa fa-2x fab fa-instagram " style="color:#e95950; "></i></a>
+                            <a href="https://www.linkedin.com/in/aman-kumar-singh-918605187/" target="_blank "><i class="mx-2 fa fa-2x fab fa-linkedin " style="color:#88b3ee; "></i></a>
+                        </div>
+                    <p class="foot">© Copyright :<strong>AKS Services</strong>All Rights Reserved.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="index.js"></script>
+</body>
+</html>

@@ -1,0 +1,94 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <link href="login.css" rel="stylesheet">
+    <script type="text/javascript" src="jsscript/jquery.js"></script>
+    <script type="text/javascript" src="jsscript/login.js"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="jsscript/login.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class='container card'>
+        <div class='row'>
+            <div class='card1 col-md-7'>
+                <div class='row' >
+                    <img src='akslogo.jpeg' class='logo'>
+                    <span id='services' class='mt-3' >Services</span>
+                </div>
+                <div class='row justify-content-center imagediv'>
+                    <img src='servicesimg.png' class='image border-line '>
+                </div>
+            </div>
+            <div class='card2 col-md-5 mx-9 my-5 px-4 py-5'>
+                <div class='container my-8'>
+                    <div id='login-row' class='row justify-content-centre'>
+                        <div id='login-column'>
+                            <div id='login-box' class='col-md-12'>
+                                <form id="login-form" class="form" action="" method="post">
+                                    <div id='text1'>
+                                        <p id='t1'>Welcome :)</p>
+                                        <p id='t2' class='text-muted'>To keep connected with us, please login with your personal information by email address and password.</p>
+                                    </div>  
+                                    <div id='emailid' class='border border-rounded bg-light row mx-3  '>
+                                        <div class='py-3 pl-2 col-md-2' style="top:50%">
+                                            <i class='fa fa-envelope fa-2x'></i>
+                                        </div>
+                                        <div class="form-group col-md-10">
+                                            <label for="username" class="text-info">Username:</label><br>
+                                            <input type="text" name="username" id="username" class="form-control">
+                                        </div>
+                                    </div>
+                                    <div id='pwd' class='border border-rounded bg-light row mx-3'>
+                                        <div class='py-3 pl-2 col-md-2' style="top:50%">
+                                            <i class='fa fa-lock fa-3x'></i>
+                                        </div>
+                                        <div class="form-group col-md-10">
+                                            <label for="password" class="text-info">Password:</label><br>
+                                            <input type="password" name="password" id="password" class="form-control">
+                                        </div>
+                                    </div>
+                                    <div class="form-group row mx-4">
+                                        <label for="remember-me" class="text-info col-md-6">
+                                            <span>
+                                                <input type="checkbox" id="remember-me" name="remember-me">
+                                            </span>
+                                            <span>Remember me</span> 
+                                        </label>
+                                        <a href='#' class='text-info col-md-6'>Forgot Password?</a>
+                                    </div>
+                                    <div class="form-group row mx-5">
+                                        <span class='col-md-5'><input type="button" name="submit" class="btn btn-info btn-md" value="Login" onclick="connectUser()" id="btnlogin"></span>
+                                        <span class='col-md-7'><input type="button" name="submit" class="btn btn-info btn-md" value="Create Account" onclick="window.location.href='register.html'" id="btnsignup"></span>
+                                    </div>
+                                    <div id='text2'>
+                                        <p id='t3' class='text-muted'>or you can join with </p>
+                                    </div> 
+                                    <div class='icons row mx-1 my-1'>
+                                        <div class="google text-center mr-3">
+                                            <div class="fa fa-google"></div>
+                                        </div>
+                                        <div class="facebook text-center mr-3">
+                                            <div class="fa fa-facebook"></div>
+                                        </div>
+                                        <div class="linkedin text-center mr-3">
+                                            <div class="fa fa-linkedin"></div>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

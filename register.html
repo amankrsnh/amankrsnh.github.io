@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <link href="register.css" rel="stylesheet">
+    <script type="text/javascript" src="jsscript/jquery.js"></script>
+    <script type="text/javascript" src="jsscript/login.js"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="jsscript/login.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class='card1'>
+        <div class='row flex-row' >
+            <img src='akslogo.jpeg' class='logo'>
+            <span id='services' class='mt-3' >Services</span>
+        </div>
+    </div>
+    <div id='box' class='container'>
+        <div id='box1' class='card row'>
+            <div id='register-box' class='card2 px-5 py-5 border col-md-12 col-sm-12'>
+                <div id='text'>
+                    <p>
+                        Signup
+                    </p>
+                </div>
+                <div id='uname' class='row'>
+                    <div id='icon1' class='col-md-1 col-sm-1'>
+                        <i id='user' class='fa fa-user'></i>
+                    </div>
+                    <div class='col-md-10 col-sm-10'>
+                        <input type='text' placeholder='Your Name' class='form-control'>
+                    </div>
+                </div>
+                <br>
+                <div id='emailid' class='row'>
+                    <div id='icon1' class='col-md-1 col-sm-1'>
+                        <i id='email' class='fa fa-envelope'></i>
+                    </div>
+                    <div class='col-md-10 col-sm-10'>
+                        <input type='text' placeholder='Email-id' class='form-control'>
+                    </div>
+                </div>
+                <br>
+                <div id='mobid' class='row'>
+                    <div id='icon1' class='col-md-1 col-sm-1'>
+                        <i id='mob1' class='fa fa-phone fa-5px'></i>
+                    </div>
+                    <div class='col-md-10 col-sm-10'>
+                        <input type='text' placeholder='Mobile Number' class='form-control'>
+                    </div>
+                </div>
+                <br>
+                <div id='pwdid' class='row'>
+                    <div id='icon1' class='col-md-1 col-sm-1'>
+                        <i id='pwd' class='fa fa-lock'></i>
+                    </div>
+                    <div class='col-md-10 col-sm-10'>
+                        <input type='password' placeholder='Password' class='form-control'>
+                    </div>
+                </div>
+                <br>
+                <div id='cnfpwdid' class='row'>
+                    <div id='icon1' class='col-md-1 col-sm-1'>
+                        <i id='cnfpwd' class='fa fa-lock'></i>
+                    </div>
+                    <div class='col-md-10 col-sm-10'>
+                        <input type='password' placeholder='Confirm Password' class='form-control'>
+                    </div>
+                </div>
+                <br>    
+                <div class='text-muted form-group col-md-12'>
+                    <span>
+                        <input type="checkbox" id="termsncon" name="termsncon">
+                    </span>
+                    <span>I agree to the <a href='#'>terms and conditions</a>.</span> 
+                </div>
+                <div class="form-group row col-md-12 col-sm-12">
+                    <span class='col-md-5 col-sm-5'><input type="button" name="register" class="btn btn-info btn-md" value="Register" onclick="registerUser()" id="btnregister"></span>
+                    <span class='col-md-7 col-sm-7'><input type="button" name="submit" class="btn btn-info btn-md" value="SignIn" onclick="window.location.href='Login.html'" id="btnsignin"></span>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>
